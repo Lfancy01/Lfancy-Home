@@ -15,3 +15,28 @@ nav{display:flex;gap:30px;color:#4c5751;font-size:14px}nav a:hover{color:var(--i
 footer{padding:28px 8%;display:flex;justify-content:space-between;gap:20px;align-items:center;background:#142019;color:#aeb8b1;font-size:12px}.footer .brand{color:#fff}
 @media(max-width:800px){nav{display:none}.nav{padding:0 5%}.nav-btn{padding:9px 13px}.hero{grid-template-columns:1fr;padding:65px 6%;min-height:auto}.hero-card{min-height:280px}.section{padding:70px 6%}.grid{grid-template-columns:1fr 1fr}.split,.contact{grid-template-columns:1fr;gap:35px;padding:70px 6%}footer{padding:25px 6%;flex-direction:column;align-items:flex-start}}
 @media(max-width:520px){.grid{grid-template-columns:1fr}.hero h1{font-size:50px}.stats{gap:25px}.nav-btn{font-size:12px}}
+.brand-banner {
+  width: 100%;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.brand-banner img {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 700px) {
+  .brand-banner {
+    margin-bottom: 25px;
+  }
+
+  .brand-banner img {
+    border-radius: 12px;
+  }
+}
